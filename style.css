@@ -1,18 +1,26 @@
+html, body {
+    height: 100%;
+}
+
+
+body {
+    background-image: url(img/joris-coulomb-bike-check.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .logo {
     margin: 0 auto;
     height: 220px;
     width: 725px;
-    background-color: rgb(168, 10, 10);
+    background-color: rgba(168, 10, 10, 0.8);
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 25px;
-}
-
-.logo__text {
-    font-family: "Sofia", sans-serif;
-    font-size: 140px;
-    color: white;
 }
 
 .logo__img {
@@ -27,4 +35,17 @@
     width: 10px;
     border-radius: 10px;
     background-color: white;
+}
+
+.logo__text {
+    font-family: "Sofia", sans-serif;
+    font-size: 140px;
+    color: white;
+}
+
+.title {
+    font-size: 65px;
+    color: white;
+    text-shadow: 2px 4px 6px rgba(0,0,0,0.6);
+    text-align: center;
 }
