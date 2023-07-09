@@ -1,0 +1,30 @@
+.logo {
+    margin: 0 auto;
+    height: 220px;
+    width: 725px;
+    background-color: rgb(168, 10, 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.logo__text {
+    font-family: "Sofia", sans-serif;
+    font-size: 140px;
+    color: white;
+}
+
+.logo__img {
+    width: 140px;
+    height: 140px;
+    filter: invert(100%);
+}
+
+.logo__line {
+    display: block;
+    height: 145px;
+    width: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
