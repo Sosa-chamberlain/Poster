@@ -1,0 +1,28 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-image: url(img/joris-coulomb-bike-check.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @media (max-width: 767px) {
+        background-position: center;
+    }
+
+    @media (min-width: 768px) and (max-width: 1199px) {
+        background-position: center;
+    }
+}
+
+.footer {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
